@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco_es</title>
+    <script src="script.js"></script>
+</head>
+<body onload="startGame()">
+    <div class="flex">
+        <p>We have created a game area! (or at least an empty canvas)</p>
+        <button onmousedown="moveup()" onmouseup="clearmove()">UP</button><br><br>
+        <button onmousedown="moveleft()" onmouseup="clearmove()">LEFT</button>
+        <button onmousedown="moveright()" onmouseup="clearmove()">RIGHT</button><br><br>
+        <button onmousedown="movedown()" onmouseup="clearmove()">DOWN</button>
+    </div>
+</body>
+</html>
